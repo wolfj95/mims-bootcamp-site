@@ -1,0 +1,8 @@
+CustomCSS = ["css/book_custom.css"]
+ExcludeTypesFromMenu = [ "notes"]
+Teacher = "the teaching team"
+LookAction = "👀"
+CodeAction = "💻"
+WriteAction = "✏️"
+
+

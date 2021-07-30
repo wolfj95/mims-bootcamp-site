@@ -1,0 +1,10 @@
+baseURL = "https://people.ischool.berkeley.edu/~jwolf/python-bootcamp/"
+languageCode = "en-us"
+title = "MIMS Python Bootcamp 2021"
+theme = "book"
+publishdir = "../python-bootcamp"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+
