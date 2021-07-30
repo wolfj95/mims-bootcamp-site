@@ -1,6 +1,7 @@
 ---
 title: 0. Introduction
 type: labs
+draft: true
 ---
 
 # Getting started
