@@ -14,7 +14,7 @@ If you haven't already finished setting up your computer, head over to the [setu
 and complete the setup before you continue.
 {{< /hint >}}
 
-## Into the Terminal
+## Using the Terminal
 Even though we will be using Jupyter Notebooks as the primary coding evnironment for this course,
 we first need to figure out how to use Jupyter to access our code files. We will do this using a tool
 called a terminal. 
@@ -64,7 +64,7 @@ need do something that involves writing code or using your computer. You can use
 indicators for action items during labs.
 {{< /aside >}}
 
-### What's in your home directory?
+#### What's in your home directory?
 
 To see the files and subdirectories in the current directory, {{< code-action >}} type `ls` into the
 command line and press `return`. This will list everything in the current directory.
@@ -105,7 +105,7 @@ cs9						                   lentil loaf gravy.pdf
 {{< /tab >}}
 {{< /tabs >}}
 
-### Compare the output in the Terminal window with the Desktop shown by the GUI.
+#### TUI vs. GUI
 
 Compare what you see on your Desktop with the output of the 
 command above. All of the files and folders are the same!
@@ -128,33 +128,32 @@ mkdir mims_bootcamp
 {{< /tab >}}
 {{< /tabs >}}
 
-Now you can `cd` inside and get started!
+{{< code-action >}} Now you can `cd` inside and get started!
 
----
-
-## Introduction to writing code
+## Intro Lab
 Now that you can navigate in the Terminal, let's write some code! Throughout the course, we
 will be using the Python programming language to help us perform computational tasks. In
-this unit, we'll be using a software library called turtle to draw things with code.
-
-There are many ways you can write and run Python programs. For this course, we will use
+this unit, we'll be using a software library called turtle to draw things with code. There
+are many ways you can write and run Python programs. For this course, we will use
 Jupyter Notebooks which allow us to write and run Python program all in one place.
 
-Let's open your first Jupyter Notebook that offers an introduction to the tool.
+The first lab will cover how to use Juptyer, how to draw with Python turtle, and how
+to incorporate variables into your programs.
 
-{{< code-action >}} Clone the Notebook for this lab into your `mims-bootcamp` directory
-using the following command:
+{{< code-action >}} Once you are in your `mims-bootcamp` directory, you can download the notebook for
+this lab using the following command:
+
 {{< tabs "4" >}}
 {{< tab "macOS" >}}
 ```shell
-git clone TODO
+git clone https://github.com/wolfj95/mims-intro.git
 ```
 {{< /tab >}}
 {{< tab "Windows" >}}
 {{< /tab >}}
 {{< /tabs >}}
 
-Now, you can use Jupyter to open the file you just downloaded.
+Now, you can use Jupyter to open the lab you just downloaded.
 
 {{< code-action >}} Start by running Jupyter in your terminal:
 
@@ -170,11 +169,23 @@ python3 -m notebook
 {{< /tabs >}}
 
 Use the window that opened in your web browser to navigate to the `mims_intro` folder.
-Then, click on the the `intro.ipynb` file to open it. Follow the instructions in the
-file that opens.
+Then, click on the the `intro.ipynb` file to open it.
 
-Before we move on, here a summary of the commands you just learned:
-{{< expand "Terminal commands" >}}
+{{< code-action >}} Complete the lab in the Jupyter notebook.
+
+## Wrapping up
+{{< code-action >}} Once you have completed the lab or in the last 15 minutes of class, complete
+[the check-in quiz for this lab](TODO).
+
+Remember that you should complete the check-in
+quiz individually.
+
+---
+
+## Resources
+
+### Terminal commands
+Here's a summary of the commands you just learned:
 {{< tabs "6" >}}
 {{< tab "macOS" >}}
 | Command                 | Description |
@@ -191,14 +202,9 @@ Before we move on, here a summary of the commands you just learned:
 | `mkdir [name]`            | to create a new directory in the current location. |
 {{< /tab >}}
 {{< /tabs >}}
-{{< /expand >}}
 
----
 
-## Let's draw!
-Now that you've got the basics, try editing your `first_program.py` file to make it more interesting.
-{{< code-action >}} Work with your group to try out some other turtle command below:
-
+### Common turtle commands
 | Function |       Input      |   Example Use  | Explanation                                                                                                                      |
 |:--------:|:----------------:|:--------------:|----------------------------------------------------------------------------------------------------------------------------------|
 |  forward |      amount      |  forward(100)  | Moves the turtle forward by the specified amount                                                                                 |
@@ -226,3 +232,5 @@ you wanted. Remember that this happened when we set the angle to the wrong numbe
 understood by the computer. Remember that this happened when we forgot a parentheses).
 
 {{< /columns >}}
+
+
