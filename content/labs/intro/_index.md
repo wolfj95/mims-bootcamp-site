@@ -1,7 +1,6 @@
 ---
 title: 0. Introduction
 type: labs
-draft: true
 ---
 
 # Getting started
@@ -44,8 +43,8 @@ Let's use this interface to create a place to put the files we'll use for the co
 {{< code-action >}} Open a new Terminal window.
 
 Terminal opens in your `home` directory for your user. You can tell this by looking at the
-text before the `$` (called the prompt).
-
+text before the `$`, called the prompt. Your prompt might look slightly different (for example,
+it may include a username), but that's ok. 
 {{< tabs "0" >}}
 {{< tab "macOS" >}}
 `~` is the symbol for the `home` directory.
@@ -59,6 +58,8 @@ Last login: Thu Aug 15 13:57:41 on ttys008
 {{< /tab >}}
 {{< /tabs >}}
 
+
+
 {{< aside >}}
 Sometimes you'll see {{< code-action >}} in a lab. This means that you
 need do something that involves writing code or using your computer. You can use these as 
@@ -67,8 +68,13 @@ indicators for action items during labs.
 
 #### What's in your home directory?
 
-To see the files and subdirectories in the current directory, {{< code-action >}} type `ls` into the
-command line and press `return`. This will list everything in the current directory.
+Anytime you see the prompt in your terminal, it means that it's ready to accept a command.
+You can use commands to tell your terminal to do various things, like navigate your file
+system or open files.
+
+To see the files and subdirectories in the current directory, you can use the list command.
+{{< code-action >}} Type `ls` into the command line (after the prompt) and press `return`.
+This will list everything in the current directory.
 
 {{< tabs "1" >}}
 {{< tab "macOS" >}}
@@ -85,7 +91,7 @@ Applications  Desktop  Documents  Downloads	 Library  Movies  Music	 Pictures
 Here, you should see that `Desktop` is one of the subdirectories listed. Let's move into that
 subdirectory.
 
-{{< code-action >}} type `cd Desktop` into the command line and press
+{{< code-action >}} Type `cd Desktop` into the command line and press
 `return` ("cd" stands for "change directory"). Notice how the path before the prompt changed
 to tell us we're now on the Desktop.
 
@@ -98,7 +104,7 @@ to tell us we're now on the Desktop.
 ~$ cd Desktop
 ~/Desktop$ ls
 Screen Shot 2019-08-15 at 12.34.48 AM.png  dobby.gif			  warsaw-boarding-pass.pdf
-cs9						                   lentil loaf gravy.pdf
+lentil loaf gravy.pdf
 ```
 {{< /tab >}}
 {{< tab "Windows" >}}
@@ -121,7 +127,7 @@ run the following command:
 {{< tabs "3" >}}
 {{< tab "macOS" >}}
 ```shell
-mkdir mims_bootcamp
+~/Desktop$ mkdir mims_bootcamp
 ```
 {{< /tab >}}
 {{< tab "Windows" >}}
@@ -130,6 +136,11 @@ mkdir mims_bootcamp
 {{< /tabs >}}
 
 {{< code-action >}} Now you can `cd` inside and get started!
+
+{{< aside >}}
+When copying commands from this website, be careful not to copy the prompt (`$`).
+Only copy the commands and parameters that follow it.
+{{< /aside >}}
 
 ## Intro Lab
 Now that you can navigate in the Terminal, let's write some code! Throughout the course, we
@@ -147,7 +158,7 @@ this lab using the following command:
 {{< tabs "4" >}}
 {{< tab "macOS" >}}
 ```shell
-git clone https://github.com/wolfj95/mims-intro.git
+~/Desktop/mims_bootcamp$ git clone https://github.com/wolfj95/mims-intro.git
 ```
 {{< /tab >}}
 {{< tab "Windows" >}}
@@ -161,11 +172,13 @@ Now, you can use Jupyter to open the lab you just downloaded.
 {{< tabs "5" >}}
 {{< tab "macOS" >}}
 ```shell
-jupyter notebook
+~/Desktop/mims_bootcamp$ jupyter notebook
 ```
 {{< /tab >}}
 {{< tab "Windows" >}}
+```shell
 python3 -m notebook
+```
 {{< /tab >}}
 {{< /tabs >}}
 

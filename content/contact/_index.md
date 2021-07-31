@@ -12,4 +12,4 @@ If you have questions or comments about the course, you can get in touch with th
 instructor, [Jacob Wolf](mailto:jwolf@berkeley.edu), or the TA, [Anshita Arya](mailto:anshita@ischool.berkeley.edu).
 
 ## Slack
-You can also ask and answer questions publicly in [the Bootcamp Slack Channel]().
+You can also ask and answer questions publicly in [the Bootcamp Slack Channel](#). *Coming soon*

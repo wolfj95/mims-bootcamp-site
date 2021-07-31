@@ -10,8 +10,8 @@ To get your computer ready, we need to configure the workspace you will use for 
 {{< tabs "computer-setup" >}}
 {{< tab "MacOS" >}}
 ## Install software
-1. Start your Terminal application.
-1. Run the software installation script by pasting in the following line into the window that opens
+1. Start your Terminal application (you can find it in your applications or using Spotlight search).
+1. Run the software installation script by pasting the following line into the window that opens
 and pressing `return`. Enter your computer's password when the window prompts you (you won't see
 any text when you're typing but that's ok).
 
@@ -25,10 +25,8 @@ setup by opening a new Terminal window and running the following command:
 jupyter notebook
 ```
 
+This should open a window in your web browser displaying the Jupyter interface.
 
-## Setup directory
-Create a directory (also known as a folder) to hold your work for this course. You can do that
-on your Desktop or anywhere in your computer using Finder. Just make sure to remember where you put it!
 {{< /tab >}}
 
 {{< tab "Windows" >}}
@@ -58,13 +56,8 @@ does not load.
 to your device.
 1. Answer the prompts in the installer choosing the default setting for each prompt.
 
-To test your git installation, return to the Windows Terminal window. Restart the Windows Terminal and type the following
+To test your git installation, return to the Windows Terminal window. **Restart the Windows Terminal** and type the following
 command: `git --version`. This should output `git version 2.32.9.windows.2` (or a higher version).
-
-## Setup directory
-Finally, you will need to create a new directory to hold your work for the course. You can do this by opening a Jupyter window
-(using the command `python -m notebook` in the Windows Terminal) and using the `New` button in the top right corner of the page.
-You can put the directory anywhere, just make sure you know where to find it!
 
 ## Done!
 Congrats your computer is now ready for the course!
@@ -76,7 +69,7 @@ Congrats your computer is now ready for the course!
 
 {{< tabs >}}
 {{< tab "Mac Help" >}}
-If that doesn't work, there may be a problem with your setup.
+If the script shows that there were errors, there may be a problem with your setup.
 
 You can try installing each piece of software individually (rather than all at once
 using the script). The sections below describe how to install each piece of software
@@ -91,7 +84,7 @@ xcode-select --install
 ```
 
 However, if you're having problems with the download, you can also download the software
-for [the Apple Developer website](https://developer.apple.com/download/all/). Select `Command
+from [the Apple Developer website](https://developer.apple.com/download/all/). Select `Command
 Line Tools for Xcode 13 beta 4`.
 
 After the install, running the command `xcode-select --install` in your Terminal should produce
