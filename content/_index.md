@@ -10,9 +10,14 @@ We're glad you're here and we're excited to learn with you.
 
 ## Yesterday
 
+{{< button relref="#" class="primary" >}}Coming Soon!{{< /button >}}
 <--->
 
 ## Today
+
+{{< button relref="#" class="primary" >}}Coming Soon!{{< /button >}}
+
+{{< button ref="https://docs.google.com/spreadsheets/d/1rpwOAN_W42ojdNEBgGe6VB1Zeup0gvp1FOntgYbbEnM/edit?usp=sharing" class="warning" >}}Help Queue{{< /button >}}
 
 <--->
 
