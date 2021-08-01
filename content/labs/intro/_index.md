@@ -54,11 +54,11 @@ Last login: Thu Aug 15 13:57:41 on ttys008
 ```
 {{< /tab >}}
 {{< tab "Windows" >}}
-
+```shell
+PS C:\Users\jwolf> 
+```
 {{< /tab >}}
 {{< /tabs >}}
-
-
 
 {{< aside >}}
 Sometimes you'll see {{< code-action >}} in a lab. This means that you
@@ -84,7 +84,16 @@ Applications  Desktop  Documents  Downloads	 Library  Movies  Music	 Pictures
 ```
 {{< /tab >}}
 {{< tab "Windows" >}}
-
+For Windows, using the `ls -n` command can make the output more readable.
+```shell
+PS C:\Users\jwolf> ls -n
+.ipython
+Contacts
+Desktop
+Documents
+Downloads
+Favorites
+```
 {{< /tab >}}
 {{< /tabs >}}
 
@@ -108,6 +117,17 @@ lentil loaf gravy.pdf
 ```
 {{< /tab >}}
 {{< tab "Windows" >}}
+```shell
+PS C:\Users\jwolf> cd Desktop
+PS C:\Users\jwolf\Desktop> ls -n
+Bicycle
+Cara
+Fall
+Numbers
+bouquet1.png
+bouquet2.png
+Dropbox.lnk
+```
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -131,7 +151,9 @@ run the following command:
 ```
 {{< /tab >}}
 {{< tab "Windows" >}}
-
+```shell
+PS C:\Users\jwolf\Desktop> mkdir mims_bootcamp
+```
 {{< /tab >}}
 {{< /tabs >}}
 
@@ -162,6 +184,9 @@ this lab using the following command:
 ```
 {{< /tab >}}
 {{< tab "Windows" >}}
+```shell
+PS C:\Users\jwolf\Desktop\mims_bootcamp> git clone https://github.com/wolfj95/mims-intro.git
+```
 {{< /tab >}}
 {{< /tabs >}}
 
