@@ -1,7 +1,6 @@
 ---
 title: 1. Loops
 type: labs
-draft: true
 ---
 
 # Loops Lab
@@ -22,7 +21,35 @@ directory:
 git clone https://github.com/wolfj95/mims-loops.git
 ```
 
+{{< expand "I can't remember how to get to the mims_bootcamp directory" >}}
+
+{{< code-action >}} Open a new Terminal window and enter the following commands:
+
+```shell
+cd Desktop/mims_bootcamp
+```
+{{< /expand >}}
+
+{{< code-action >}} Run Jupyter in your terminal:
+
+{{< tabs "1" >}}
+{{< tab "macOS" >}}
+```shell
+jupyter notebook
+```
+{{< /tab >}}
+{{< tab "Windows" >}}
+```shell
+python3 -m notebook
+```
+{{< /tab >}}
+{{< /tabs >}}
 {{< code-action >}} Complete the lab in the Jupyter notebook.
+
+{{< aside >}}
+If you can't access Jupyter notebooks for some reason, here's the link to
+[the Colab web-hosted version of the lab](https://colab.research.google.com/drive/1Kjx9nJZMi7MhQyKYPE3-4IXkGvR2kSpc?usp=sharing).
+{{< /aside >}}
 
 ## Wrapping up
 {{< code-action >}} Once you have completed the lab or in the last 15 minutes of class, complete

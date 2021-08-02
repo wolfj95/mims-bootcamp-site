@@ -15,14 +15,16 @@ We're glad you're here and we're excited to learn with you.
 
 ## Today
 
-{{< button relref="#" class="primary" >}}Coming Soon!{{< /button >}}
+{{< button relref="labs/intro" class="primary" >}}Intro Lab{{< /button >}}
 
-{{< button ref="https://docs.google.com/spreadsheets/d/1rpwOAN_W42ojdNEBgGe6VB1Zeup0gvp1FOntgYbbEnM/edit?usp=sharing" class="warning" >}}Help Queue{{< /button >}}
+<br>
+
+{{< button href="https://docs.google.com/spreadsheets/d/1rpwOAN_W42ojdNEBgGe6VB1Zeup0gvp1FOntgYbbEnM/edit?usp=sharing" class="primary" >}}Help Queue{{< /button >}}
 
 <--->
 
 ## Tomorrow
-{{< button relref="labs/intro" class="primary" >}}Intro Lab{{< /button >}}
+{{< button relref="labs/loops" class="primary" >}}Loops{{< /button >}}
 
 {{< /columns >}}
 ## About the course
