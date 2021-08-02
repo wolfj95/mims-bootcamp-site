@@ -214,7 +214,7 @@ Then, click on the the `intro.ipynb` file to open it.
 
 ## Wrapping up
 {{< code-action >}} Once you have completed the lab or in the last 15 minutes of class, complete
-[the check-in quiz for this lab](TODO).
+[the check-in quiz for this lab](https://forms.gle/ghZED4EziHAhNQwd8).
 
 Remember that you should complete the check-in
 quiz individually.

@@ -22,7 +22,7 @@ We're glad you're here and we're excited to learn with you.
 <--->
 
 ## Tomorrow
-{{< button relref="#" class="primary" >}}Coming Soon!{{< /button >}}
+{{< button relref="labs/intro" class="primary" >}}Intro Lab{{< /button >}}
 
 {{< /columns >}}
 ## About the course
