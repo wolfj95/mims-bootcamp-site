@@ -51,9 +51,13 @@ If you can't access Jupyter notebooks for some reason, here's the link to
 [the Colab web-hosted version of the lab](https://colab.research.google.com/drive/1Kjx9nJZMi7MhQyKYPE3-4IXkGvR2kSpc?usp=sharing).
 {{< /aside >}}
 
+{{< hint info >}}
+You can check [the solutions to the lab on Github](https://github.com/wolfj95/mims-loops/blob/main/loops_solutions.ipynb).
+{{< /hint >}}
+
 ## Wrapping up
 {{< code-action >}} Once you have completed the lab or in the last 15 minutes of class, complete
-[the check-in quiz for this lab](TODO).
+[the check-in quiz for this lab](https://forms.gle/45sHLVzas2Mb5oSM6).
 
 Remember that you should complete the check-in
 quiz individually.

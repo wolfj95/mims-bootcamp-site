@@ -10,12 +10,12 @@ We're glad you're here and we're excited to learn with you.
 
 ## Yesterday
 
-{{< button relref="#" class="primary" >}}Coming Soon!{{< /button >}}
+{{< button relref="labs/loops" class="primary" >}}Loops{{< /button >}}
 <--->
 
 ## Today
 
-{{< button relref="labs/intro" class="primary" >}}Intro Lab{{< /button >}}
+{{< button relref="labs/conditionals" class="primary" >}}Conditionals{{< /button >}}
 
 <br>
 
@@ -24,7 +24,7 @@ We're glad you're here and we're excited to learn with you.
 <--->
 
 ## Tomorrow
-{{< button relref="labs/loops" class="primary" >}}Loops{{< /button >}}
+{{< button relref="#" class="primary" >}}Coming Soon!{{< /button >}}
 
 {{< /columns >}}
 ## About the course
@@ -35,9 +35,9 @@ We're glad you're here and we're excited to learn with you.
 |------------------------|------------------------------|----------------------------------------------------------------------|---------------|
 | **Monday, August 2nd**     | Intro to programming         | Setup + first drawing                                                | What is code? |
 | **Tuesday, August 3rd**    | For loops                    | Visualizing the fibonacci sequence                                   | Pseudo-coding |
-| **Wednesday, August 4th**  | Conditionals and while loops | Visualizing the hailstone sequence                                   | Decomposition |
-| **Thursday, August 5th**   | Functions                    | Patterned drawings                                                   | Abstraction   |
-| **Friday, August 6th**     | Types                        | TBD                                                                  | Debugging     |
+| **Wednesday, August 4th**  | Conditionals and while loops | Visualizing the hailstone sequence                                   | Debugging     |
+| **Thursday, August 5th**   | Functions                    | Patterned drawings                                                   | Decomposition |
+| **Friday, August 6th**     | Types                        | TBD                                                                  | Abstraction   |
 | **Monday, August 9th**     | Understanding existing code  | Working through code from an existing project                        | Testing       |
 | **Tuesday, August 10th**   | Project intro + Planning     |                                                                      |               |
 | **Wednesday, August 11th** | Project work                 |                                                                      |               |

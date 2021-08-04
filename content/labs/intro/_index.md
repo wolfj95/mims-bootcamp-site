@@ -219,6 +219,10 @@ Then, click on the the `intro.ipynb` file to open it.
 Remember that you should complete the check-in
 quiz individually.
 
+{{< hint info >}}
+You can check [the solutions to the quiz on Github](https://github.com/wolfj95/mims-intro/blob/main/quiz.ipynb).
+{{< /hint >}}
+
 ---
 
 ## Resources
