@@ -10,21 +10,22 @@ We're glad you're here and we're excited to learn with you.
 
 ## Yesterday
 
-{{< button relref="labs/loops" class="primary" >}}Loops{{< /button >}}
+{{< button relref="labs/animation" class="primary" >}}Animation{{< /button >}}
+
 <--->
 
 ## Today
 
-{{< button relref="labs/conditionals" class="primary" >}}Conditionals{{< /button >}}
+{{< button relref="labs/project" class="primary" >}}Project{{< /button >}}
 
 <br>
 
-{{< button href="https://docs.google.com/spreadsheets/d/1rpwOAN_W42ojdNEBgGe6VB1Zeup0gvp1FOntgYbbEnM/edit?usp=sharing" class="primary" >}}Help Queue{{< /button >}}
+{{< button href="https://forms.gle/RMUKWpKjGcnW17qs8" class="primary" >}}Bootcamp Evaluation{{< /button >}}
 
 <--->
 
 ## Tomorrow
-{{< button relref="#" class="primary" >}}Coming Soon!{{< /button >}}
+No more labs 🥲
 
 {{< /columns >}}
 ## About the course
@@ -37,10 +38,10 @@ We're glad you're here and we're excited to learn with you.
 | **Tuesday, August 3rd**    | For loops                    | Visualizing the fibonacci sequence                                   | Pseudo-coding |
 | **Wednesday, August 4th**  | Conditionals and while loops | Visualizing the hailstone sequence                                   | Debugging     |
 | **Thursday, August 5th**   | Functions                    | Patterned drawings                                                   | Decomposition |
-| **Friday, August 6th**     | Types                        | TBD                                                                  | Abstraction   |
-| **Monday, August 9th**     | Understanding existing code  | Working through code from an existing project                        | Testing       |
-| **Tuesday, August 10th**   | Project intro + Planning     |                                                                      |               |
-| **Wednesday, August 11th** | Project work                 |                                                                      |               |
+| **Friday, August 6th**     | Types                        | Modeling English language poetry                                     |               |
+| **Monday, August 9th**     | Type and content review      | Modeling English language poetry                                     | Abstraction   |
+| **Tuesday, August 10th**   | Animation                    | Working through code from an existing project                        | Testing       |
+| **Wednesday, August 11th** | Project intro + Planning     |                                                                      |               |
 | **Thursday, August 12th**  | Project work                 |                                                                      |               |
 | **Friday, August 13th**    | Gallery Show                 | Finish project, share projects and “critique”, reflect on experience |               |
 

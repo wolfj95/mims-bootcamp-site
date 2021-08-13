@@ -59,5 +59,9 @@ You can check [the solutions to the lab on Github](https://github.com/wolfj95/mi
 {{< code-action >}} Once you have completed the lab or in the last 15 minutes of class, complete
 [the check-in quiz for this lab](https://forms.gle/45sHLVzas2Mb5oSM6).
 
+{{< hint info >}}
+You can check [the solutions to the quiz on Github](https://github.com/wolfj95/mims-loops/blob/main/quiz.ipynb).
+{{< /hint >}}
+
 Remember that you should complete the check-in
 quiz individually.
